@@ -1,0 +1,82 @@
+.container-modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    z-index: 100;
+    background: linear-gradient(rgb(238, 238, 238) 300px, rgb(255, 255, 255) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+#modal-cards {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    float: left;
+    margin-left: 10%;
+}
+
+.main-modal {
+    margin-top: 2rem;
+    width: 60%;
+    height: 70%;
+    background-color: white;
+    margin-top: 10%;
+    left: 0;
+    border-radius: 8px;
+}
+
+.header-modal {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-modal {
+    border: transparent;
+    color: #333;
+    border-radius: 10px;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin: 20px;
+    font-size: 15px;
+    text-align: center;
+    background: #ddddddb9;
+}
+
+.btn-modal:hover {
+    background-color: #ddddddb9;
+}
+
+.save {
+    background-color: #e60023;
+    color: white;
+}
+
+#icon-ellipsis {
+    font-size: 20px;
+    color: rgb(172, 170, 170);
+    margin-left: 1.5rem;
+    margin-top: 30px;
+    display: block;
+    float: left;
+    margin: auto;
+    margin-left: 25px;
+}
+
+#icon-upload {
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+#icon-angle {
+    cursor: pointer;
+    font-size: 35px;
+    margin: 0 5px;
+    color: #333;
+    padding-top: 10px;
+    margin: 150px 100px auto 0;
+}
