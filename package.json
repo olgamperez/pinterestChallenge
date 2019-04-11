@@ -2,6 +2,7 @@
   "name": "pinterestchallenge",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://olgamperez.github.io/pinterestChallenge",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
     "@fortawesome/free-brands-svg-icons": "^5.8.1",
@@ -19,6 +20,8 @@
     "unsplash-js": "^5.0.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
